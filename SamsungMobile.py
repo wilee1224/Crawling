@@ -14,3 +14,5 @@ if __name__ == '__main__':
     # for n in res:
     #     print(n.get_text())
 
+# UnicodeDecodeError: 'cp949' codec can't decode byte 0xec in position 4303: illegal multibyte sequence 에러 발생시
+# open()에 'rt', encoding='UTF8' 옵션 추가
