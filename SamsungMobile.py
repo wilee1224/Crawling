@@ -1,6 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
+from selenium import webdriver
 
 if __name__ == '__main__':
     # soup = BeautifulSoup(urllib.request.urlopen("https://www.naver.com").read(), 'html.parser')
